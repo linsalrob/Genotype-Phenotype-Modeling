@@ -1,0 +1,28 @@
+For the initial run we get growth of 0.0 which is False
+After adding 57 ESSENTIAL reactions we get 0.0 (growth is False)
+
+After adding 226 MEDIA reactions we get 0.0 (growth is False)
+
+After adding 329 SUBSYSTEM reactions we get -1.27530115011e-13 (growth is False)
+
+After adding 4474 ORPHAN reactions we get -3.92211069829e-12 (growth is False)
+
+0.333333333333 does not have enough columns
+After adding 2 reactions in models/Lipson/Acido.txt we get -1.46109661421e-25 (growth is False)
+
+There are 3855 compounds before assigning probabilities
+Average score for reactions we are running:
+Left: 0.998919697515
+Right: 1.0
+Using a cutoff of 0.998919697515
+Proposing 3423 reactions
+Traceback (most recent call last):
+  File "../PyFBA/example_code/gapfill_from_reactions.py", line 217, in <module>
+    status, value, growth = PyFBA.fba.run_fba(compounds, reactions, reactions2run, media, biomass_eqtn)
+  File "/data/PyFBA/PyFBA/fba/run_fba.py", line 33, in run_fba
+    uptake_secretion, verbose=False)
+  File "/data/PyFBA/PyFBA/fba/create_stoichiometric_matrix.py", line 121, in create_stoichiometric_matrix
+    PyFBA.lp.load(data, cp, rc)
+  File "/data/PyFBA/PyFBA/lp/glpk_solver.py", line 65, in load
+    solver.matrix = temp
+MemoryError

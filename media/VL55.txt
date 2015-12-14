@@ -28,4 +28,3 @@ cpd00560	Tungsten	NaWO4*2H2O
 cpd03424	Vitamin B12	C63H88CoN14O14P	cyanocobalamin
 cpd11732	Xylan		
 cpd00034	Zn2+	ZnCl2	
-
