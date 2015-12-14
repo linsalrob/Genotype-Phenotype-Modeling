@@ -7,7 +7,7 @@ import argparse
 import os
 import sys
 
-parser=argparse.ArgumentParser(description='Convert an assigned_functions file to a list of roles')
+parser=argparse.ArgumentParser(description='Convert an assigned_functions file to a list of reactions')
 parser.add_argument('-a', help='assigned functions file')
 parser.add_argument("-r", help="roles only file (no pegs)")
 parser.add_argument('-v', help='verbose', action='store_true')
