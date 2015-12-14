@@ -64,5 +64,5 @@ temp
 
 # some stuff I don't want at the moment
 ignore
-
-
+parts
+to_run
