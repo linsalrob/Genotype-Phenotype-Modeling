@@ -1,4 +1,0 @@
-Traceback (most recent call last):
-  File "scripts/gapfill_from_reactions.py", line 74, in <module>
-    with open(args.r, 'r') as f:
-IOError: [Errno 2] No such file or directory: 'models/260572/6666666.12737.reactions'

@@ -55,3 +55,15 @@ docs/_build/
 
 # PyBuilder
 target/
+
+#PyCharm
+.idea
+
+# temporary files
+temp
+
+# some stuff I don't want at the moment
+ignore
+
+
+
