@@ -1,0 +1,31 @@
+Compound ID	Name	Formula	Alternate names
+cpd30638	2-(N-morpholino)ethanesulfonic acid	C6H13NO4S	MES
+cpd00443	ABEE	H2NC6H4CO2H	4-aminobenzoate
+cpd00104	BIOT	C10H16N2O3S	biotin
+cpd09225	Boric acid	H3BO3	
+cpd00063	Ca2+	Ca2+	
+cpd30684	Calcium DL-pantothenate	C9H17NO5	
+cpd00099	Cl-	Cl-	
+cpd00149	Co2+	CoCl2*6H2O	
+cpd00058	Cu2+	CuCl2*2H2O	
+cpd00021	Fe2+	FeCl2*4H2O	
+cpd00393	Folate	C19H19N7O6	
+cpd00067	H+	H+	
+cpd00541	Lipoate	C8H14O2S2	Thioctic acid
+cpd00254	Mg	Mg2+	
+cpd00030	Mn2+	MnCl2*H2O	
+cpd11574	Molybdate	Na2MoO4	
+cpd00971	Na+	Na+	
+cpd19013	NH4+	NH4+	
+cpd00218	Niacin	C6NH5O2	Nicotinic acid
+cpd20862	Nickel(2+)	NiCl2*6H2O	
+cpd00009	Phosphate	PO4	
+cpd00493	Pyridoxamine phosphate	C8H12N2O2	
+cpd00220	Riboflavin	C17H20N4O6	
+cpd03396	Selenate	Na2SeO3*5H2O	
+cpd00048	Sulfate	SO42-	
+cpd00560	Tungsten	NaWO4*2H2O	
+cpd03424	Vitamin B12	C63H88CoN14O14P	cyanocobalamin
+cpd11732	Xylan		
+cpd00034	Zn2+	ZnCl2	
+
