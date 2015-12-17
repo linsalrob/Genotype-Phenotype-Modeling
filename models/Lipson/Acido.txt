@@ -5196,7 +5196,6 @@ L-Proline/Glycine betaine transporter ProP	0.333333333333
 leucine aminopeptidase precursor	0.142857142857
 Manganese catalase (EC 1.11.1.6)	0.166666666667
 PP-loop domain protein	0.833333333333
-	0.333333333333
 RNA polymerase sigma factor CarQ	0.142857142857
 Peptide methionine sulfoxide reductase MsrB (EC 1.8.4.12)	1.0
 Two-component sensor PilS	0.5
