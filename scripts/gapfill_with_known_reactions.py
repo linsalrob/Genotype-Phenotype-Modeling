@@ -38,10 +38,11 @@ if growth:
 original_reactions = copy.copy(reactions_to_run)
 
 # propose other reactions that we have proteins for
-with_p_reactions = PyFBA.gapfill.suggest_reactions_with_proteins(reactions, verbose=True)
+with_p_reactions = PyFBA.gapfill.suggest_reactions_with_proteins(reactions)
 # find the new reactions
 with_p_reactions.difference_update(reactions_to_run)
 reactions_to_run.update(with_p_reactions)
+sys.stderr.write("After adding all reactions with proteins we have {} reactions to run".format(len(reactions_to_run)))
 
 status, value, growth = PyFBA.fba.run_fba(compounds, reactions, reactions_to_run, media, biomass_eqtn)
 sys.stderr.write("After adding {} reactions with proteins ".format(len(with_p_reactions)) +
