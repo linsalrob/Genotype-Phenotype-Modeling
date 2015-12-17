@@ -15,7 +15,8 @@ args = parser.parse_args()
 
 if args.a:
     af = parse.read_assigned_functions(args.a)
-    roles = set(af.values())
+    roles = set()
+    [roles.update(i) for i in af.values()]
 elif args.r:
     roles =set()
     with open(args.r, 'r') as f:
