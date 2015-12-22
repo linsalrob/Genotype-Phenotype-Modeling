@@ -1,23 +1,44 @@
-For the initial run we get growth of 0.0 which is False
-After adding 57 ESSENTIAL reactions we get 0.0 (growth is False)
+In parsing the bounds we found 30 media uptake and secretion reactions and 73 other u/s reactions
+Length of the media: 30
+Number of reactions to run: 1160
+Number of compounds in SM: 1139
+Number of reactions in SM: 1264
+Revised number of total reactions: 34799
+Number of total compounds: 45617
+SMat dimensions: 1139 x 1264
+For the initial run we get growth of -4.24978843364e-13 which is False
+After adding 56 ESSENTIAL reactions we get -8.64434048232e-13 (growth is False)
 
-After adding 226 MEDIA reactions we get -1.31248982987e-12 (growth is False)
+Lipoate (location: e) is not imported
+Xylan (location: e) is not imported
+alpha-D-Xylose (location: e) is not imported
+Tungsten (location: e) is not imported
+Molybdate (location: e) is not imported
+Boric acid (location: e) is not imported
+Selenate (location: e) is not imported
+Calcium DL-pantothenate (location: e) is not imported
+2-(N-morpholino)ethanesulfonic acid (location: e) is not imported
+NH4+ (location: e) is not imported
+Nickel(2+) (location: e) is not imported
+After adding 226 MEDIA reactions we get 4.5741266845e-13 (growth is False)
 
-After adding 329 SUBSYSTEM reactions we get -2.98152029478e-14 (growth is False)
+Found 5798 roles to connect to reactions
+Suggesting an additional 1450 reactions
+After adding 333 reactions in ../../Acido.txt we get -5.00831760611e-13 (growth is False)
 
-After adding 4474 ORPHAN reactions we get -2.3880664585e-12 (growth is False)
+After adding 234 SUBSYSTEM reactions we get -8.11399017673e-13 (growth is False)
 
-After adding 2 reactions in models/Lipson/Acido.txt we get 3.44573967291e-10 (growth is False)
+After adding 3846 ORPHAN compounds we get 0.0 (growth is False)
 
-There are 3855 compounds before assigning probabilities
+There are 3780 compounds before assigning probabilities
 Average score for reactions we are running:
-Left: 0.998919697515
+Left: 0.998967653131
 Right: 1.0
-Using a cutoff of 0.998919697515
-Proposing 3423 reactions
-After adding 3423 PROBABILITY reactions we get 2.74377987396e-10 (growth is False)
+Using a cutoff of 0.998967653131
+Proposing 3350 reactions
+After adding 3350 PROBABILITY reactions we get 2.61546044082e-10 (growth is False)
 
-REACTIONS WITH PROTEINS: 9080 reactions have pegs associated with them (out of 35196 reactions)
+REACTIONS WITH PROTEINS: 9080 reactions have pegs associated with them (out of 35201 reactions)
 WITH proteins suggesting 9080 additional reactions
-After adding 2880 ALL WITH PROTEINS reactions  we get 0.0 (growth is False)
+After adding 2824 ALL WITH PROTEINS reactions  we get -1.11991169634e-11 (growth is False)
 
