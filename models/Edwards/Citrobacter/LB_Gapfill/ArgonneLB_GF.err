@@ -1,181 +1,158 @@
-In parsing the bounds we found 65 media uptake and secretion reactions and 110 other u/s reactions
+In parsing the bounds we found 65 media uptake and secretion reactions and 111 other u/s reactions
 Length of the media: 65
-Number of reactions to run: 1423
-Number of compounds in SM: 1347
-Number of reactions in SM: 1599
-Revised number of total reactions: 34871
+Number of reactions to run: 1445
+Number of compounds in SM: 1352
+Number of reactions in SM: 1622
+Revised number of total reactions: 34872
 Number of total compounds: 45616
-SMat dimensions: 1347 x 1599
-For the initial run we get growth of 0.0 which is False
+SMat dimensions: 1352 x 1622
+For the initial run we get growth of -1.33393790684e-11 which is False
 After adding 48 ESSENTIAL reactions we get 0.0 (growth is False)
 
-Cd2+ (location: e) is not imported
 chromate (location: e) is not imported
-Hg2+ (location: e) is not imported
 Molybdate (location: e) is not imported
 Ni2+ (location: e) is not imported
-Cu2+ (location: e) is not imported
 L-Cystine (location: e) is not imported
-After adding 72 MEDIA reactions we get 5.00326527145e-13 (growth is False)
+After adding 34 MEDIA reactions we get 0.0 (growth is False)
 
-Found 7036 roles to connect to reactions
-Suggesting an additional 1495 reactions
-After adding 169 reactions in ../263199/citrobacter.roles we get 1.82121738977e-11 (growth is False)
+Found 7144 roles to connect to reactions
+Suggesting an additional 1614 reactions
+After adding 171 reactions in ../263199/citrobacter.roles we get 374.715677383 (growth is True)
 
-Found 16056 roles to connect to reactions
-Suggesting an additional 1558 reactions
-After adding 160 reactions in ../263199/closest.genomes.roles we get -4.77057356753e-12 (growth is False)
-
-After adding 208 SUBSYSTEM reactions we get -1.43256669075e-11 (growth is False)
-
-After adding 3139 ORPHAN reactions we get 1000.0 (growth is True)
-
-Testing suggestions from orphans
-Successfully limited the reactions by compound and reduced  from 3139 to 3137
-At the beginning the base list has 2080  and the optional list has 3137 reactions
-Iteration: 1 Try: 0 Length: 1569 and 1568 Growth: True and True
-Iteration: 2 Try: 0 Length: 785 and 784 Growth: False and True
-Iteration: 3 Try: 0 Length: 392 and 392 Growth: True and False
-Iteration: 4 Try: 0 Length: 196 and 196 Growth: False and True
-Iteration: 5 Try: 0 Length: 98 and 98 Growth: False and True
-Iteration: 6 Try: 0 Length: 49 and 49 Growth: False and True
-Iteration: 7 Try: 0 Length: 25 and 24 Growth: False and True
-Iteration: 8 Try: 0 Length: 12 and 12 Growth: True and False
-Iteration: 9 Try: 0 Length: 6 and 6 Growth: True and False
-Iteration: 10 Try: 0 Length: 3 and 3 Growth: True and False
-Iteration: 11 Try: 0 Length: 2 and 1 Growth: True and False
-Iteration: 12 Try: 0 Length: 1 and 1 Growth: True and False
-There are 1 reactions remaining: set(['rxn11279'])
-Testing suggestions from subsystems
-The set of 'base' reactions results in growth so we don't need to bisect the optional set
-Testing suggestions from other genera
-The set of 'base' reactions results in growth so we don't need to bisect the optional set
+REACTIONS FROM CLOSE GENOMES: set(['rxn10127', 'rxn10128', 'rxn01029', 'rxn01028', 'rxn05682', 'rxn00577', 'rxn01972', 'rxn03057', 'rxn05318', 'rxn05317', 'rxn05315', 'rxn02946', 'rxn05460', 'rxn10132', 'rxn05425', 'rxn00787', 'rxn00145', 'rxn05092', 'rxn03953', 'rxn03954', 'rxn00953', 'rxn05417', 'rxn03492', 'rxn37803', 'rxn10094', 'rxn03038', 'rxn22111', 'rxn09685', 'rxn09687', 'rxn08792', 'rxn08793', 'rxn02788', 'rxn03491', 'rxn00941', 'rxn01635', 'rxn01545', 'rxn00547', 'rxn01893', 'rxn05316', 'rxn02360', 'rxn05349', 'rxn05409', 'rxn26238', 'rxn05500', 'rxn00211', 'rxn00119', 'rxn04598', 'rxn04599', 'rxn04597', 'rxn03167', 'rxn10167', 'rxn06848', 'rxn02166', 'rxn02760', 'rxn00927', 'rxn05429', 'rxn05421', 'rxn37650', 'rxn02235', 'rxn05517', 'rxn05189', 'rxn10196', 'rxn10195', 'rxn10194', 'rxn00324', 'rxn00327', 'rxn01453', 'rxn07586', 'rxn15010', 'rxn07587', 'rxn05167', 'rxn03173', 'rxn07588', 'rxn07589', 'rxn00917', 'rxn00868', 'rxn05199', 'rxn05198', 'rxn11544', 'rxn01842', 'rxn05171', 'rxn00058', 'rxn03439', 'rxn05573', 'rxn05579', 'rxn01615', 'rxn01299', 'rxn00471', 'rxn01278', 'rxn00672', 'rxn00016', 'rxn00010', 'rxn00499', 'rxn04386', 'rxn02268', 'rxn01517', 'rxn01513', 'rxn01289', 'rxn05152', 'rxn02894', 'rxn04047', 'rxn01747', 'rxn02071', 'rxn09688', 'rxn04603', 'rxn04600', 'rxn00654', 'rxn05146', 'rxn01383', 'rxn05126', 'rxn05127', 'rxn00720', 'rxn01923', 'rxn04050', 'rxn01279', 'rxn06979', 'rxn08620', 'rxn00830', 'rxn15435', 'rxn01011', 'rxn01013', 'rxn00634', 'rxn05108', 'rxn05106', 'rxn05104', 'rxn05105', 'rxn00744', 'rxn00743', 'rxn00742', 'rxn05039', 'rxn05557', 'rxn03883', 'rxn02377', 'rxn05413', 'rxn00999', 'rxn03513', 'rxn04674', 'rxn04673', 'rxn00602', 'rxn00607', 'rxn00358', 'rxn01737', 'rxn01226', 'rxn00512', 'rxn01352', 'rxn01827', 'rxn00196', 'rxn20649', 'rxn01911', 'rxn01912', 'rxn05200', 'rxn05205', 'rxn05204', 'rxn03182', 'rxn03188', 'rxn05063', 'rxn02103', 'rxn02102', 'rxn05211', 'rxn01106', 'rxn01748', 'rxn00509', 'rxn00503', 'rxn00183', 'rxn00182', 'rxn00769', 'rxn00768', 'rxn03842', 'rxn08619', 'rxn05305', 'rxn02313'])
 Testing suggestions from close genomes 
-Successfully limited the reactions by compound and reduced  from 169 to 143
-At the beginning the base list has 1544  and the optional list has 143 reactions
-Iteration: 1 Try: 0 Length: 72 and 71 Growth: False and True
-Iteration: 2 Try: 0 Length: 36 and 35 Growth: False and False
-Iteration: 2 Try: 0 Length: 28 and 43 Growth: False and False
-Iteration: 2 Try: 0 Length: 14 and 57 Growth: False and False
-Iteration: 2 Try: 0 Length: 7 and 64 Growth: False and True
-Iteration: 3 Try: 0 Length: 32 and 32 Growth: False and False
-Iteration: 3 Try: 0 Length: 25 and 39 Growth: False and False
-Iteration: 3 Try: 0 Length: 12 and 52 Growth: False and False
-Iteration: 3 Try: 0 Length: 6 and 58 Growth: False and False
-Iteration: 3 Try: 0 Length: 3 and 61 Growth: False and True
-Iteration: 4 Try: 0 Length: 31 and 30 Growth: False and False
-Iteration: 4 Try: 0 Length: 24 and 37 Growth: False and False
-Iteration: 4 Try: 0 Length: 12 and 49 Growth: False and False
-Iteration: 4 Try: 0 Length: 6 and 55 Growth: False and False
-Iteration: 4 Try: 0 Length: 3 and 58 Growth: False and False
-Iteration: 4 Try: 0 Length: 1 and 60 Growth: False and True
-Iteration: 5 Try: 0 Length: 30 and 30 Growth: False and False
-Iteration: 5 Try: 0 Length: 24 and 36 Growth: False and False
-Iteration: 5 Try: 0 Length: 12 and 48 Growth: False and False
-Iteration: 5 Try: 0 Length: 6 and 54 Growth: False and False
-Iteration: 5 Try: 0 Length: 3 and 57 Growth: False and False
-Iteration: 5 Try: 0 Length: 1 and 59 Growth: False and False
-Iteration: 6 Try: 1 Length: 30 and 30 Growth: False and False
-Iteration: 6 Try: 1 Length: 24 and 36 Growth: False and False
-Iteration: 6 Try: 1 Length: 12 and 48 Growth: False and False
-Iteration: 6 Try: 1 Length: 6 and 54 Growth: False and False
-Iteration: 6 Try: 1 Length: 3 and 57 Growth: False and False
-Iteration: 6 Try: 1 Length: 1 and 59 Growth: False and True
-Iteration: 7 Try: 0 Length: 30 and 29 Growth: False and False
-Iteration: 7 Try: 0 Length: 23 and 36 Growth: False and False
-Iteration: 7 Try: 0 Length: 11 and 48 Growth: False and False
-Iteration: 7 Try: 0 Length: 5 and 54 Growth: False and False
-Iteration: 7 Try: 0 Length: 2 and 57 Growth: False and False
-Iteration: 7 Try: 0 Length: 1 and 58 Growth: False and False
-Iteration: 8 Try: 1 Length: 30 and 29 Growth: False and True
-Iteration: 9 Try: 0 Length: 15 and 14 Growth: False and False
-Iteration: 9 Try: 0 Length: 11 and 18 Growth: False and True
-Iteration: 10 Try: 0 Length: 9 and 9 Growth: False and False
-Iteration: 10 Try: 0 Length: 7 and 11 Growth: False and True
-Iteration: 11 Try: 0 Length: 6 and 5 Growth: False and False
-Iteration: 11 Try: 0 Length: 4 and 7 Growth: True and False
-Iteration: 12 Try: 0 Length: 2 and 2 Growth: False and False
-Iteration: 12 Try: 0 Length: 1 and 3 Growth: False and False
-Iteration: 13 Try: 1 Length: 2 and 2 Growth: False and False
-Iteration: 13 Try: 1 Length: 1 and 3 Growth: False and True
-Iteration: 14 Try: 0 Length: 2 and 1 Growth: False and False
-Iteration: 14 Try: 0 Length: 1 and 2 Growth: False and True
-Iteration: 15 Try: 0 Length: 1 and 1 Growth: False and False
-Iteration: 16 Try: 1 Length: 1 and 1 Growth: False and False
-Iteration: 17 Try: 2 Length: 1 and 1 Growth: False and False
-Iteration: 18 Try: 3 Length: 1 and 1 Growth: False and False
-Iteration: 19 Try: 4 Length: 1 and 1 Growth: False and False
-Iteration: 20 Try: 5 Length: 1 and 1 Growth: False and False
-There are 2 reactions remaining: set(['rxn00119', 'rxn01513'])
+Successfully limited the reactions by compound and reduced  from 171 to 145
+At the beginning the base list has 1527  and the optional list has 145 reactions
+Iteration: 1 Try: 0 Length: 73 and 72 Growth: True and NOT TESTED
+Iteration: 2 Try: 0 Length: 37 and 36 Growth: False and False
+Iteration: 2 Try: 0 Length: 29 and 44 Growth: False and False
+Iteration: 2 Try: 0 Length: 14 and 59 Growth: False and False
+Iteration: 2 Try: 0 Length: 7 and 66 Growth: False and True
+Iteration: 3 Try: 0 Length: 33 and 33 Growth: False and False
+Iteration: 3 Try: 0 Length: 26 and 40 Growth: False and False
+Iteration: 3 Try: 0 Length: 13 and 53 Growth: False and False
+Iteration: 3 Try: 0 Length: 6 and 60 Growth: False and False
+Iteration: 3 Try: 0 Length: 3 and 63 Growth: False and True
+Iteration: 4 Try: 0 Length: 32 and 31 Growth: False and False
+Iteration: 4 Try: 0 Length: 25 and 38 Growth: False and False
+Iteration: 4 Try: 0 Length: 12 and 51 Growth: False and False
+Iteration: 4 Try: 0 Length: 6 and 57 Growth: False and False
+Iteration: 4 Try: 0 Length: 3 and 60 Growth: False and False
+Iteration: 4 Try: 0 Length: 1 and 62 Growth: False and True
+Iteration: 5 Try: 0 Length: 31 and 31 Growth: False and False
+Iteration: 5 Try: 0 Length: 24 and 38 Growth: False and False
+Iteration: 5 Try: 0 Length: 12 and 50 Growth: False and False
+Iteration: 5 Try: 0 Length: 6 and 56 Growth: False and False
+Iteration: 5 Try: 0 Length: 3 and 59 Growth: False and False
+Iteration: 5 Try: 0 Length: 1 and 61 Growth: False and True
+Iteration: 6 Try: 0 Length: 31 and 30 Growth: False and False
+Iteration: 6 Try: 0 Length: 24 and 37 Growth: False and False
+Iteration: 6 Try: 0 Length: 12 and 49 Growth: False and False
+Iteration: 6 Try: 0 Length: 6 and 55 Growth: False and False
+Iteration: 6 Try: 0 Length: 3 and 58 Growth: False and False
+Iteration: 6 Try: 0 Length: 1 and 60 Growth: False and False
+Iteration: 7 Try: 0 Length: 31 and 30 Growth: True and NOT TESTED
+Iteration: 8 Try: 0 Length: 16 and 15 Growth: False and True
+Iteration: 9 Try: 0 Length: 8 and 7 Growth: False and False
+Iteration: 9 Try: 0 Length: 6 and 9 Growth: False and False
+Iteration: 9 Try: 0 Length: 3 and 12 Growth: False and True
+Iteration: 10 Try: 0 Length: 6 and 6 Growth: False and False
+Iteration: 10 Try: 0 Length: 4 and 8 Growth: False and False
+Iteration: 10 Try: 0 Length: 2 and 10 Growth: False and True
+Iteration: 11 Try: 0 Length: 5 and 5 Growth: False and False
+Iteration: 11 Try: 0 Length: 4 and 6 Growth: False and False
+Iteration: 11 Try: 0 Length: 2 and 8 Growth: False and False
+Iteration: 11 Try: 0 Length: 1 and 9 Growth: False and False
+Iteration: 12 Try: 1 Length: 5 and 5 Growth: False and False
+Iteration: 12 Try: 1 Length: 4 and 6 Growth: False and False
+Iteration: 12 Try: 1 Length: 2 and 8 Growth: False and False
+Iteration: 12 Try: 1 Length: 1 and 9 Growth: False and False
+Iteration: 13 Try: 2 Length: 5 and 5 Growth: False and False
+Iteration: 13 Try: 2 Length: 4 and 6 Growth: False and False
+Iteration: 13 Try: 2 Length: 2 and 8 Growth: False and True
+Iteration: 14 Try: 0 Length: 4 and 4 Growth: False and False
+Iteration: 14 Try: 0 Length: 3 and 5 Growth: False and False
+Iteration: 14 Try: 0 Length: 1 and 7 Growth: False and False
+Iteration: 15 Try: 1 Length: 4 and 4 Growth: False and False
+Iteration: 15 Try: 1 Length: 3 and 5 Growth: False and False
+Iteration: 15 Try: 1 Length: 1 and 7 Growth: False and False
+Iteration: 16 Try: 2 Length: 4 and 4 Growth: False and False
+Iteration: 16 Try: 2 Length: 3 and 5 Growth: False and False
+Iteration: 16 Try: 2 Length: 1 and 7 Growth: False and False
+Iteration: 17 Try: 3 Length: 4 and 4 Growth: False and False
+Iteration: 17 Try: 3 Length: 3 and 5 Growth: False and False
+Iteration: 17 Try: 3 Length: 1 and 7 Growth: False and True
+Iteration: 18 Try: 0 Length: 4 and 3 Growth: False and False
+Iteration: 18 Try: 0 Length: 2 and 5 Growth: False and False
+Iteration: 18 Try: 0 Length: 1 and 6 Growth: False and True
+Iteration: 19 Try: 0 Length: 3 and 3 Growth: False and False
+Iteration: 19 Try: 0 Length: 2 and 4 Growth: False and False
+Iteration: 19 Try: 0 Length: 1 and 5 Growth: False and False
+Iteration: 20 Try: 1 Length: 3 and 3 Growth: False and False
+Iteration: 20 Try: 1 Length: 2 and 4 Growth: False and False
+Iteration: 20 Try: 1 Length: 1 and 5 Growth: False and False
+Iteration: 21 Try: 2 Length: 3 and 3 Growth: False and False
+Iteration: 21 Try: 2 Length: 2 and 4 Growth: False and False
+Iteration: 21 Try: 2 Length: 1 and 5 Growth: False and False
+Iteration: 22 Try: 3 Length: 3 and 3 Growth: False and False
+Iteration: 22 Try: 3 Length: 2 and 4 Growth: False and False
+Iteration: 22 Try: 3 Length: 1 and 5 Growth: False and False
+Iteration: 23 Try: 4 Length: 3 and 3 Growth: False and False
+Iteration: 23 Try: 4 Length: 2 and 4 Growth: False and False
+Iteration: 23 Try: 4 Length: 1 and 5 Growth: False and True
+Iteration: 24 Try: 0 Length: 3 and 2 Growth: False and False
+Iteration: 24 Try: 0 Length: 2 and 3 Growth: False and False
+Iteration: 24 Try: 0 Length: 1 and 4 Growth: False and False
+Iteration: 25 Try: 1 Length: 3 and 2 Growth: False and False
+Iteration: 25 Try: 1 Length: 2 and 3 Growth: False and False
+Iteration: 25 Try: 1 Length: 1 and 4 Growth: False and False
+Iteration: 26 Try: 2 Length: 3 and 2 Growth: False and False
+Iteration: 26 Try: 2 Length: 2 and 3 Growth: False and False
+Iteration: 26 Try: 2 Length: 1 and 4 Growth: False and False
+Iteration: 27 Try: 3 Length: 3 and 2 Growth: False and False
+Iteration: 27 Try: 3 Length: 2 and 3 Growth: False and False
+Iteration: 27 Try: 3 Length: 1 and 4 Growth: False and False
+Iteration: 28 Try: 4 Length: 3 and 2 Growth: False and False
+Iteration: 28 Try: 4 Length: 2 and 3 Growth: False and False
+Iteration: 28 Try: 4 Length: 1 and 4 Growth: False and False
+Iteration: 29 Try: 5 Length: 3 and 2 Growth: False and False
+Iteration: 29 Try: 5 Length: 2 and 3 Growth: False and False
+Iteration: 29 Try: 5 Length: 1 and 4 Growth: False and False
+There are 5 reactions remaining: set(['rxn00058', 'rxn00119', 'rxn26238', 'rxn01513', 'rxn05039'])
 Testing suggestions from media
-At the beginning the base list has 1474  and the optional list has 72 reactions
-Iteration: 1 Try: 0 Length: 36 and 36 Growth: True and True
-Iteration: 2 Try: 0 Length: 18 and 18 Growth: True and True
-Iteration: 3 Try: 0 Length: 9 and 9 Growth: True and True
-Iteration: 4 Try: 0 Length: 5 and 4 Growth: True and False
-Iteration: 5 Try: 0 Length: 3 and 2 Growth: True and False
-Iteration: 6 Try: 0 Length: 2 and 1 Growth: True and False
-Iteration: 7 Try: 0 Length: 1 and 1 Growth: True and False
-There are 1 reactions remaining: set(['rxn08275'])
+The set of 'base' reactions results in growth so we don't need to bisect the optional set
 Testing suggestions from essential
 Successfully limited the reactions by compound and reduced  from 48 to 38
-At the beginning the base list has 1427  and the optional list has 38 reactions
+At the beginning the base list has 1450  and the optional list has 38 reactions
 Iteration: 1 Try: 0 Length: 19 and 19 Growth: False and True
 Iteration: 2 Try: 0 Length: 10 and 9 Growth: False and False
 Iteration: 2 Try: 0 Length: 7 and 12 Growth: False and False
 Iteration: 2 Try: 0 Length: 3 and 16 Growth: False and False
 Iteration: 2 Try: 0 Length: 1 and 18 Growth: False and False
 Iteration: 3 Try: 1 Length: 10 and 9 Growth: False and False
-Iteration: 3 Try: 1 Length: 7 and 12 Growth: False and False
-Iteration: 3 Try: 1 Length: 3 and 16 Growth: False and False
-Iteration: 3 Try: 1 Length: 1 and 18 Growth: False and True
-Iteration: 4 Try: 0 Length: 9 and 9 Growth: False and False
-Iteration: 4 Try: 0 Length: 7 and 11 Growth: False and False
-Iteration: 4 Try: 0 Length: 3 and 15 Growth: False and False
-Iteration: 4 Try: 0 Length: 1 and 17 Growth: False and True
-Iteration: 5 Try: 0 Length: 9 and 8 Growth: False and False
-Iteration: 5 Try: 0 Length: 6 and 11 Growth: False and False
-Iteration: 5 Try: 0 Length: 3 and 14 Growth: False and False
-Iteration: 5 Try: 0 Length: 1 and 16 Growth: False and False
-Iteration: 6 Try: 1 Length: 9 and 8 Growth: False and False
-Iteration: 6 Try: 1 Length: 6 and 11 Growth: False and False
-Iteration: 6 Try: 1 Length: 3 and 14 Growth: False and False
-Iteration: 6 Try: 1 Length: 1 and 16 Growth: False and False
-Iteration: 7 Try: 2 Length: 9 and 8 Growth: False and True
-Iteration: 8 Try: 0 Length: 4 and 4 Growth: False and False
-Iteration: 8 Try: 0 Length: 3 and 5 Growth: False and False
-Iteration: 8 Try: 0 Length: 1 and 7 Growth: False and False
-Iteration: 9 Try: 1 Length: 4 and 4 Growth: False and False
-Iteration: 9 Try: 1 Length: 3 and 5 Growth: False and False
-Iteration: 9 Try: 1 Length: 1 and 7 Growth: False and True
-Iteration: 10 Try: 0 Length: 4 and 3 Growth: False and False
-Iteration: 10 Try: 0 Length: 2 and 5 Growth: False and False
-Iteration: 10 Try: 0 Length: 1 and 6 Growth: False and False
-Iteration: 11 Try: 1 Length: 4 and 3 Growth: False and False
-Iteration: 11 Try: 1 Length: 2 and 5 Growth: False and False
-Iteration: 11 Try: 1 Length: 1 and 6 Growth: False and True
-Iteration: 12 Try: 0 Length: 3 and 3 Growth: False and False
-Iteration: 12 Try: 0 Length: 2 and 4 Growth: False and False
-Iteration: 12 Try: 0 Length: 1 and 5 Growth: False and False
-Iteration: 13 Try: 1 Length: 3 and 3 Growth: False and False
-Iteration: 13 Try: 1 Length: 2 and 4 Growth: False and False
-Iteration: 13 Try: 1 Length: 1 and 5 Growth: False and True
-Iteration: 14 Try: 0 Length: 3 and 2 Growth: False and False
-Iteration: 14 Try: 0 Length: 2 and 3 Growth: False and False
-Iteration: 14 Try: 0 Length: 1 and 4 Growth: False and False
-Iteration: 15 Try: 1 Length: 3 and 2 Growth: False and False
-Iteration: 15 Try: 1 Length: 2 and 3 Growth: False and False
-Iteration: 15 Try: 1 Length: 1 and 4 Growth: False and True
-Iteration: 16 Try: 0 Length: 2 and 2 Growth: False and False
-Iteration: 16 Try: 0 Length: 1 and 3 Growth: False and False
-Iteration: 17 Try: 1 Length: 2 and 2 Growth: False and False
-Iteration: 17 Try: 1 Length: 1 and 3 Growth: False and False
-Iteration: 18 Try: 2 Length: 2 and 2 Growth: False and False
-Iteration: 18 Try: 2 Length: 1 and 3 Growth: False and False
-Iteration: 19 Try: 3 Length: 2 and 2 Growth: False and False
-Iteration: 19 Try: 3 Length: 1 and 3 Growth: False and False
-Iteration: 20 Try: 4 Length: 2 and 2 Growth: False and False
-Iteration: 20 Try: 4 Length: 1 and 3 Growth: False and False
-Iteration: 21 Try: 5 Length: 2 and 2 Growth: False and False
-Iteration: 21 Try: 5 Length: 1 and 3 Growth: False and False
-There are 4 reactions remaining: set(['rxn05468', 'rxn03164', 'rxn05116', 'rxn02285'])
+Iteration: 3 Try: 1 Length: 7 and 12 Growth: False and True
+Iteration: 4 Try: 0 Length: 6 and 6 Growth: False and False
+Iteration: 4 Try: 0 Length: 4 and 8 Growth: False and False
+Iteration: 4 Try: 0 Length: 2 and 10 Growth: False and False
+Iteration: 4 Try: 0 Length: 1 and 11 Growth: False and True
+Iteration: 5 Try: 0 Length: 6 and 5 Growth: False and False
+Iteration: 5 Try: 0 Length: 4 and 7 Growth: True and False
+Iteration: 6 Try: 0 Length: 2 and 2 Growth: False and False
+Iteration: 6 Try: 0 Length: 1 and 3 Growth: False and False
+Iteration: 7 Try: 1 Length: 2 and 2 Growth: False and False
+Iteration: 7 Try: 1 Length: 1 and 3 Growth: False and False
+Iteration: 8 Try: 2 Length: 2 and 2 Growth: False and False
+Iteration: 8 Try: 2 Length: 1 and 3 Growth: False and True
+Iteration: 9 Try: 0 Length: 2 and 1 Growth: False and False
+Iteration: 9 Try: 0 Length: 1 and 2 Growth: False and False
+Iteration: 10 Try: 1 Length: 2 and 1 Growth: False and False
+Iteration: 10 Try: 1 Length: 1 and 2 Growth: False and False
+Iteration: 11 Try: 2 Length: 2 and 1 Growth: False and False
+Iteration: 11 Try: 2 Length: 1 and 2 Growth: False and False
+Iteration: 12 Try: 3 Length: 2 and 1 Growth: False and False
+Iteration: 12 Try: 3 Length: 1 and 2 Growth: False and False
+Iteration: 13 Try: 4 Length: 2 and 1 Growth: False and False
+Iteration: 13 Try: 4 Length: 1 and 2 Growth: False and False
+Iteration: 14 Try: 5 Length: 2 and 1 Growth: False and False
+Iteration: 14 Try: 5 Length: 1 and 2 Growth: False and False
+There are 3 reactions remaining: set(['rxn03164', 'rxn05116', 'rxn02285'])
