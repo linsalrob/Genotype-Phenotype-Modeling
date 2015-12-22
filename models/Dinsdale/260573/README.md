@@ -41,3 +41,5 @@ rxn00656 | (1) L-Alanine[c] + (1) 3-Oxopropanoate[c] <=> (1) Pyruvate[c] + (1) b
 # Revised models
 
 The revised model has 1,194 reactions.
+
+For most of the 50 conditions, we need to gap fill from media and close genomes.
