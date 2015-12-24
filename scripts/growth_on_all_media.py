@@ -41,5 +41,4 @@ if __name__ == '__main__':
         status, value, growth = PyFBA.fba.run_fba(compounds, reactions, reactions2run, media, biomass_eqtn)
         print("{}\t{}\t{}".format(mediaf, value, growth))
         # reset uptake secretion reactions
-        for r in reactions2run:
-            reactions[r].is_uptake_secretion = False
+        reactions = PyFBA.fba.remove_uptake_and_secretion_reactions(reactions)
