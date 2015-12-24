@@ -1,5 +1,31 @@
 # Growth of ED4 (260567 or 6666666.127365)
 
+# Model iteration 1 (2015/12/23)
+
+The models built on iteration 0 (see below) grew on all media, and all have 1285 or 1286 reactions
+
+Media | Number of reactions in model
+--- | ---
+MOPS_NoC_Alpha-D-Glucose  |  1285
+MOPS_NoC_D-Fructose  |  1285
+MOPS_NoC_D-Galactose  |  1285
+MOPS_NoC_D-Glucose  |  1286
+MOPS_NoC_D-Glutamic_Acid  |  1285
+MOPS_NoC_D-Mannose  |  1287
+MOPS_NoC_Glycerol  |  1286
+MOPS_NoC_L-Glutamine  |  1286
+MOPS_NoC_Quinate  |  1285
+MOPS_NoC_Salicoside  |  1286
+MOPS_NoC_Sucrose  |  1285
+
+
+The unified model has 1,305 reactions.
+
+
+
+
+# Model iteration 0 (2105/12/22)
+
 Because this is the first in the list, these are my notes on figuring out what is going on!
 
 This strain grows on the following media
@@ -123,4 +149,3 @@ Our revised model now has 1,282 reactions in it. We can repeat the gap filling o
 In nine out of eleven models we get growth by just gap filling the media. In the two other cases (MOPS_NoC_Quinate and MOPS_NoC_Salicoside) we had to go to the orphan compounds to get growth.
 
 This makes the model resolution go very quickly - the orphan compounds were only a single reaction so they get resolved in a single step.
-
