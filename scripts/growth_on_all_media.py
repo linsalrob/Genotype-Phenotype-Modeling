@@ -38,7 +38,6 @@ if __name__ == '__main__':
             sys.stderr.write("Skipped media file: {} as the file ending is not .txt\n".format(mediaf))
             continue
         media = PyFBA.parse.read_media_file(os.path.join(args.m, mediaf))
-        print("Media file is {}".format(os.path.join(args.m, mediaf)))
         status, value, growth = PyFBA.fba.run_fba(compounds, reactions, reactions2run, media, biomass_eqtn)
         print("{}\t{}\t{}".format(mediaf, value, growth))
         # reset uptake secretion reactions
