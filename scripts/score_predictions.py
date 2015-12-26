@@ -32,7 +32,7 @@ if __name__ == '__main__':
             if len(p) < 2:
                 sys.stderr.write("can't parse growth from predictions {}".format(l))
                 continue
-            if p[2] == True:
+            if p[2] == "True":
                 predict[p[0]] = True
             else:
                 predict[p[0]] = False
