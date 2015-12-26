@@ -59,4 +59,4 @@ if __name__ == '__main__':
 
     print("TP: {}\tTN: {}\tFP: {}\tFN: {}".format(tp, tn, fp, fn))
     if tp + fn > 0:
-        print("Sensitivity: {}".format(1.0 * tp/(tp + fn)))
+        print("Sensitivity: {} Precision: {} Accuracy: {}".format(1.0 * tp/(tp + fn), 1.0*tp/(tp + fp), 1.0 * (tp+tn)/(tp + fp + tn + fn)))
