@@ -29,7 +29,7 @@ if __name__ == '__main__':
             else:
                 sys.stderr.write("Reaction {} skipped\n".format(r))
 
-    print("We have {} reactions to run".format(len(reactions2run)))
+    sys.stderr.write("We have {} reactions to run\n".format(len(reactions2run)))
 
     biomass_eqtn = PyFBA.metabolism.biomass.biomass_equation('gramnegative')
 
