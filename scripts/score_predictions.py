@@ -57,6 +57,6 @@ if __name__ == '__main__':
             else:
                 fp += 1
 
-    print("TP: {}\nTN: {}\nFP: {}\nFN: {}".format(tp, tn, fp, fn))
+    print("TP: {}\tTN: {}\tFP: {}\tFN: {}".format(tp, tn, fp, fn))
     if tp + fn > 0:
         print("Sensitivity: {}".format(1.0 * tp/(tp + fn)))
