@@ -53,20 +53,20 @@ if __name__ == '__main__':
         if predict[p]:
             if '+' in growth[args.g][p]:
                 tp += 1
-                if args.p == 'tp':
+                if args.o == 'tp':
                     print("tp: {}\t{}\t{}".format(p, growth[args.g][p], value[p]))
             else:
                 fn += 1
-                if args.p == 'fn':
+                if args.o == 'fn':
                     print("fn: {}\t{}\t{}".format(p, growth[args.g][p], value[p]))
         else:
             if '-' in growth[args.g][p]:
                 tn += 1
-                if args.p == 'tn':
+                if args.o == 'tn':
                     print("tn: {}\t{}\t{}".format(p, growth[args.g][p], value[p]))
             else:
                 fp += 1
-                if args.p == 'fp':
+                if args.o == 'fp':
                     print("fp: {}\t{}\t{}".format(p, growth[args.g][p], value[p]))
 
     print("TP: {}\tTN: {}\tFP: {}\tFN: {}".format(tp, tn, fp, fn))
