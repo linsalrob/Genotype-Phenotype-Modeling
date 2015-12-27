@@ -5,10 +5,12 @@ import argparse
 __author__ = 'Rob Edwards'
 
 if __name__ == '__main__':
+    print_types = ['tp', 'fp', 'tn', 'fn']
     parser = argparse.ArgumentParser(description='Compare predictions to reality')
     parser.add_argument('-r', help='reality file that has id, media, and growth level etc (probably ../growth_predictions.tsv', required=True)
     parser.add_argument('-p', help='predictions file', required=True)
     parser.add_argument('-g', help='genome id. Use the RAST id (2nd column in reality file')
+    parser.add_argument('-p', help='print one class of results. Options: {}'.format(print_types), default=None)
     args = parser.parse_args()
 
     growth = {}
@@ -26,6 +28,7 @@ if __name__ == '__main__':
         sys.exit("{} was not found in {}. Can not continue\n".format(args.g, args.r))
 
     predict = {}
+    value = {}
     with open(args.p, 'r') as f:
         for l in f:
             p=l.strip().split('\t')
@@ -36,6 +39,7 @@ if __name__ == '__main__':
                 predict[p[0]] = True
             else:
                 predict[p[0]] = False
+            value[p[0]] = p[1]
 
     tp = 0
     fp = 0
@@ -49,13 +53,21 @@ if __name__ == '__main__':
         if predict[p]:
             if '+' in growth[args.g][p]:
                 tp += 1
+                if args.p == 'tp':
+                    print("tp: {}\t{}\t{}".format(p, growth[args.g][p], value[p]))
             else:
                 fn += 1
+                if args.p == 'fn':
+                    print("fn: {}\t{}\t{}".format(p, growth[args.g][p], value[p]))
         else:
             if '-' in growth[args.g][p]:
                 tn += 1
+                if args.p == 'tn':
+                    print("tn: {}\t{}\t{}".format(p, growth[args.g][p], value[p]))
             else:
                 fp += 1
+                if args.p == 'fp':
+                    print("fp: {}\t{}\t{}".format(p, growth[args.g][p], value[p]))
 
     print("TP: {}\tTN: {}\tFP: {}\tFN: {}".format(tp, tn, fp, fn))
     if tp + fn > 0:
