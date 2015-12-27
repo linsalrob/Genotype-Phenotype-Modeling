@@ -56,18 +56,18 @@ if __name__ == '__main__':
                 if args.o == 'tp':
                     print("tp: {}\t{}\t{}".format(p, growth[args.g][p], value[p]))
             else:
-                fn += 1
-                if args.o == 'fn':
-                    print("fn: {}\t{}\t{}".format(p, growth[args.g][p], value[p]))
+                fp += 1
+                if args.o == 'fp':
+                    print("fp: {}\t{}\t{}".format(p, growth[args.g][p], value[p]))
         else:
             if '-' in growth[args.g][p]:
                 tn += 1
                 if args.o == 'tn':
                     print("tn: {}\t{}\t{}".format(p, growth[args.g][p], value[p]))
             else:
-                fp += 1
-                if args.o == 'fp':
-                    print("fp: {}\t{}\t{}".format(p, growth[args.g][p], value[p]))
+                fn += 1
+                if args.o == 'fn':
+                    print("fn: {}\t{}\t{}".format(p, growth[args.g][p], value[p]))
 
     print("TP: {}\tTN: {}\tFP: {}\tFN: {}".format(tp, tn, fp, fn))
     if tp + fn > 0:
