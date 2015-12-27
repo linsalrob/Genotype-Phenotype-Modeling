@@ -10,7 +10,7 @@ if __name__ == '__main__':
     parser.add_argument('-r', help='reality file that has id, media, and growth level etc (probably ../growth_predictions.tsv', required=True)
     parser.add_argument('-p', help='predictions file', required=True)
     parser.add_argument('-g', help='genome id. Use the RAST id (2nd column in reality file')
-    parser.add_argument('-p', help='print one class of results. Options: {}'.format(print_types), default=None)
+    parser.add_argument('-o', help='print one class of results. Options: {}'.format(print_types), default=None)
     args = parser.parse_args()
 
     growth = {}
