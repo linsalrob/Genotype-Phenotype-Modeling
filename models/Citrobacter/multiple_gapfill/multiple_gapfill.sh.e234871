@@ -1,0 +1,89 @@
+Looking for growth on at least 1.8 media
+For the initial run we get: tp: 0 fp: 0 tn: 2 fn: 3 Accuracy: 0.4
+Gap filling from MEDIA
+H2O (location: e) is not imported
+Adenine (location: e) is not imported
+O2 (location: e) is not imported
+H2O (location: e) is not imported
+GSH (location: e) is not imported
+O2 (location: e) is not imported
+H2O (location: e) is not imported
+O2 (location: e) is not imported
+After adding media we get: tp: 0 fp: 0 tn: 2 fn: 3 Accuracy: 0.4
+Gap filling from CLOSE GENOMES
+From citrobacter.roles we found 7144 role suggestions
+Those roles converted to 1614 reactions
+After adding reactions from citrobacter.roles we get: tp: 0 fp: 0 tn: 2 fn: 3 Accuracy: 0.4
+From closest.genomes.roles we found 15974 role suggestions
+Those roles converted to 1676 reactions
+After adding reactions from closest.genomes.roles we get: tp: 0 fp: 0 tn: 2 fn: 3 Accuracy: 0.4
+Gap filling from ESSENTIAL PROTEINS
+After adding essential reactions we get: tp: 0 fp: 0 tn: 2 fn: 3 Accuracy: 0.4
+Gap filling from SUBSYSTEMS
+Too few columns in subsystem file at line: Xyloglucan_Utilization
+Too few columns in subsystem file at line: ARGININE-SYN
+Too few columns in subsystem file at line: NAD_and_NADP_-_test_subsystem
+Too few columns in subsystem file at line: 
+Suggesting 579 subsystems
+Suggesting 3246 roles
+Found 1652 reactions
+Suggested reactions is 1886
+Suggested reactions is 249
+After adding subystems we get: tp: 0 fp: 0 tn: 2 fn: 3 Accuracy: 0.4
+Gap filling from ORPHAN COMPOUNDS
+After adding orphans we get: tp: 0 fp: 0 tn: 2 fn: 3 Accuracy: 0.4
+Gap filling from PROBABILITY
+There are 3262 compounds before assigning probabilities
+Average score for reactions we are running:
+Left: 0.998989558774
+Right: 1.0
+Using a cutoff of 0.998989558774
+Proposing 2890 reactions
+After adding probability we get: tp: 3 fp: 2 tn: 0 fn: 0 Accuracy: 0.6
+Testing suggestions from probability
+The beginning accuracy is 0.6. We aim to improve this
+Limited reactions by compound from 2890 to 2818
+At the beginning the base list has 5205  and the optional list has 2818 reactions
+Lengths: left 1409 right 1409
+Both left 3 and right 3 are above 1.8
+Lengths: left 705 right 704
+Left 3 is above 1.8
+Lengths: left 353 right 352
+Right 3 is above 1.8
+Lengths: left 176 right 176
+Left 3 is above 1.8
+Lengths: left 88 right 88
+Right 3 is above 1.8
+Lengths: left 44 right 44
+Right 3 is above 1.8
+Lengths: left 22 right 22
+Left 3 is above 1.8
+Lengths: left 11 right 11
+Left 3 is above 1.8
+Lengths: left 6 right 5
+Left 3 is above 1.8
+Lengths: left 3 right 3
+Left 3 is above 1.8
+Lengths: left 2 right 1
+Right 3 is above 1.8
+There are 1 reactions remaining: set(['rxn05166'])
+Testing suggestions from orphans
+The set of 'base' reactions results in 3 positive reactions. Bigger than 1.8 so no need to bisect
+Testing suggestions from subsystems
+The set of 'base' reactions has an accuracy of 0.6 which is bigger than the threshold of 0.5. No need to bisect
+Testing suggestions from essential
+If we combine all reactions, we have get 1 true positives
+We can not get more than this, so we can't exceed 1.8
+No point in continuing
+Testing suggestions from other genera
+If we combine all reactions, we have get 0 true positives
+We can not get more than this, so we can't exceed 1.8
+No point in continuing
+Testing suggestions from close genomes 
+If we combine all reactions, we have get 0 true positives
+We can not get more than this, so we can't exceed 1.8
+No point in continuing
+Testing suggestions from media
+If we combine all reactions, we have get 0 true positives
+We can not get more than this, so we can't exceed 1.8
+No point in continuing
